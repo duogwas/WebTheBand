@@ -25,6 +25,10 @@ html {
 
 }
 
+.clear {
+    clear: both;
+}
+
 #header {
     position: fixed;
     top: 0;
@@ -123,8 +127,6 @@ html {
     bottom: 47px;
     width: 100%;
     text-align: center;
-
-
 }
 
 #slider .text-heading {
@@ -137,11 +139,62 @@ html {
     margin-top: 25px;
 }
 
-
 #content {
 
 }
 
-#footer {
-
+#content .content-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
 }
+
+#content .section-heading {
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#content .section-sub-heading {
+    text-align: center;
+    font-style: italic;
+    opacity: 0.4;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+#content .about-text {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#content .member-list {
+    margin-top: 48px;
+    /* overflow: hidden; */
+    /* overflow xử lý float, thẻ cha k chứa các thẻ con */
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+#content .member-name {
+    font-size: 15px;
+}
+
+#content .member-img {
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+#footer {
+    
+}
+    
